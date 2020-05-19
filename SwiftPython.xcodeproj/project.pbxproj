@@ -14,6 +14,8 @@
 		8B4254242457BC1700C7CCCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4254222457BC1700C7CCCE /* LaunchScreen.storyboard */; };
 		8B42542F2457BC1700C7CCCE /* SwiftPythonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42542E2457BC1700C7CCCE /* SwiftPythonTests.swift */; };
 		8B42543A2457BC1700C7CCCE /* SwiftPythonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4254392457BC1700C7CCCE /* SwiftPythonUITests.swift */; };
+		8B61E17F2471E8F8001C4F6C /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B61E17E2471E8F8001C4F6C /* RestManager.swift */; };
+		8B61E1812471EA1F001C4F6C /* SampleStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B61E1802471EA1F001C4F6C /* SampleStructures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8B4254352457BC1700C7CCCE /* SwiftPythonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPythonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4254392457BC1700C7CCCE /* SwiftPythonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPythonUITests.swift; sourceTree = "<group>"; };
 		8B42543B2457BC1700C7CCCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B61E17E2471E8F8001C4F6C /* RestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
+		8B61E1802471EA1F001C4F6C /* SampleStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleStructures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				8B4254192457BC1400C7CCCE /* AppDelegate.swift */,
 				8B42541B2457BC1400C7CCCE /* ViewController.swift */,
+				8B61E1802471EA1F001C4F6C /* SampleStructures.swift */,
+				8B61E17E2471E8F8001C4F6C /* RestManager.swift */,
 				8B42541D2457BC1400C7CCCE /* Main.storyboard */,
 				8B4254202457BC1700C7CCCE /* Assets.xcassets */,
 				8B4254222457BC1700C7CCCE /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B61E17F2471E8F8001C4F6C /* RestManager.swift in Sources */,
 				8B42541C2457BC1400C7CCCE /* ViewController.swift in Sources */,
 				8B42541A2457BC1400C7CCCE /* AppDelegate.swift in Sources */,
+				8B61E1812471EA1F001C4F6C /* SampleStructures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
